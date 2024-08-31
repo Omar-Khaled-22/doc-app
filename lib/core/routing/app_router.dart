@@ -2,7 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:newflutterproject/core/routing/routes.dart';
 import 'package:newflutterproject/features/ui/onboarding/onboardinscreen.dart';
-import 'package:newflutterproject/features/ui/onlogin/login.dart';
+
+import '../../features/ui/login/login_screen.dart';
 
 class AppRouter {
  static Route generateRoute(RouteSettings settings) {
@@ -12,6 +13,7 @@ class AppRouter {
       case Routes.loginScreen:
         return MaterialPageRoute(
             builder: (_) => const LoginScreen());
+
       default:
         return MaterialPageRoute(
             builder: (_) => Scaffold(
