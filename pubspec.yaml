@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   # state management
   flutter_bloc: ^8.1.6
+  # A build system for Dart code generation and modular compilation.
+  build_runner: ^2.4.7
   # Code generator for immutable classes that has a simple syntax/API without compromising on the features
   #mainly used with (retrofit - cubit)
   freezed: ^2.4.5
